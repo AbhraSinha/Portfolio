@@ -23,6 +23,13 @@
   width: 70px;
 }
 
+.experience-card-logo-aws {
+  background: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
 .experience-card-title {
   font-family: "Google Sans Regular";
   margin-top: 10px;
@@ -132,7 +139,14 @@
     margin-right: auto;
   }
 
-  .experience-card-title {
+  .experience-card-logo-aws {
+  background: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.experience-card-title {
     text-align: center;
   }
 

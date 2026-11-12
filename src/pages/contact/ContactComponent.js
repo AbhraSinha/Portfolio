@@ -28,11 +28,7 @@ function Contact(props) {
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
-              <img
-                className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                alt=""
-              />
+              <BlogsImg theme={theme} />
             </div>
             <div className="contact-heading-text-div">
               <h1
@@ -51,7 +47,7 @@ function Contact(props) {
               <br />
               <br />
               <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
+                View LinkedIn Profile
               </a>
             </div>
           </div>
@@ -70,7 +66,7 @@ function Contact(props) {
               </p>
               <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
-                  My Medium Profile
+                  View Publications
                 </a>
               </div>
             </div>
